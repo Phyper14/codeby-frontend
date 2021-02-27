@@ -1,0 +1,225 @@
+:root {
+    --azul: rgb(0, 122, 170)
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(src/Fontes/Poppins-Regular.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body {
+    background-color: white;
+    color: cyan;
+}
+
+header {
+    background: black;
+    height: 600px;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+    margin: 4% 0;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 3.5em;
+}
+
+.corpo p {
+    margin: 2.5% 0;
+    max-width: 60%;
+    color: var(--azul);
+    font-weight: bold;
+    text-align: center;
+}
+
+.corpo button {
+    margin: 4% 0;
+    background-color: var(--azul);
+    font-size: 0.7em;
+    font-weight: bold;
+    padding: 1% 2%;
+    border: none;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.corpo button:hover {
+    background-color: white;
+    color: black;
+}
+
+main {
+    margin: 0 5%;
+    font-size: 2em;
+    color: black;
+    font-weight: bold;
+}
+
+main .categorias {
+    margin: 3% 0;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 3% 0;
+    color: white;
+}
+
+.linha {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.nature {
+    background: url(src/img/natureza.jpg) no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    text-align: start;
+    margin: 1%;
+    padding: 2%;
+}
+
+.daily {
+    background: url(src/img/café.jpg) no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 300px;
+    text-align: start;
+    margin: 1%;
+    padding: 2%;
+}
+
+.together {
+    background: url(src/img/together.jpg) no-repeat;
+    background-size: cover;
+    width: 900px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 1%;
+    padding: 2%;
+}
+
+.analysis {
+    background: url(src/img/analysis.jpg) no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 300px;
+    text-align: end;
+    margin: 1%;
+    padding: 2%;
+}
+
+.pictures {
+    background: url(src/img/praia.jpg) no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    text-align: start;
+    margin: 1%;
+    padding: 2%;
+}
+
+footer {
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+    background-color: lightgray;
+}
+
+footer .growth {
+    margin: 0 5%;
+    padding: 2em;
+}
+
+.graficos {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    font-size: 0.5em;
+    color: white;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 180px;
+    margin: 1%;
+}
+
+.head {
+    width: 100%;
+    background-color: blue;
+    padding: 5%;
+}
+
+.footer {
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    background-color: var(--azul);
+    font-size: small;
+    padding: 5%;
+}
+
+#item-1 {
+    height: 80px;
+}
+
+#item-2 {
+    height: 110px;
+}
+
+#item-3 {
+    height: 140px;
+}
+
+#item-4 {
+    height: 170px;
+}
+
+#item-5 {
+    height: 200px;
+}
+
+#item-6 {
+    height: 230px;
+}
